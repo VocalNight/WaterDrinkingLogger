@@ -17,7 +17,7 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
-
+app.UseRequestLocalization("en-US");
 app.MapRazorPages();
 
 app.Run();

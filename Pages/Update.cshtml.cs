@@ -43,7 +43,7 @@ namespace WaterDrinkingLogger.Pages
 
                     drinkingWaterRecord.Id = reader.GetInt32(0);
                     drinkingWaterRecord.Date = DateTime.Parse(reader.GetString(1), CultureInfo.CurrentUICulture.DateTimeFormat);
-                    drinkingWaterRecord.Quantity = reader.GetInt32(2);
+                    drinkingWaterRecord.Quantity = reader.GetDouble(2);
                 }
 
                 return drinkingWaterRecord;
