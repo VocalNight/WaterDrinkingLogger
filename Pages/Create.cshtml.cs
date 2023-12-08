@@ -1,8 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.Data.Sqlite;
-using System.Reflection;
 using WaterDrinkingLogger.Models;
 
 namespace WaterDrinkingLogger.Pages
