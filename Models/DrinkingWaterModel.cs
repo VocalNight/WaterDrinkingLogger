@@ -11,7 +11,5 @@ namespace WaterDrinkingLogger.Models
 
         [Range(0, double.MaxValue, ErrorMessage = "Value for {0} must be positive.")]
         public double Quantity { get; set; }
-
-        public string Size { get; set; }
     }
 }
